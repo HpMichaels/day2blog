@@ -8,7 +8,37 @@ header{
     background-color: rgb(245, 245, 245);
     border-bottom: 2px solid rgb(126, 126, 126);
 }
-
+.marq{
+    background-color: black;
+    color: white;
+}
+.scrolltext{
+    animation: myanimation 20s linear infinite;
+}
+@keyframes myanimation {
+    from {
+        transform: translateX(100%);
+    }    
+    to {
+        transform: translateX(-100%);
+    }
+}
+nav{
+    display: flex;
+    gap: 40px;
+    border: 1px solid rgb(126, 126, 126);
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navmenu{
+    display: flex;
+}
+.button{
+    display: flex;
+}
 h1{
     font-size: 35px;
     margin-bottom: 10px;
